@@ -1,4 +1,4 @@
-~umpy==1.20.1
+
 streamlit==0.79.0
 pandas==0.25.3
 numpy==1.18.1
