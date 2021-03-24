@@ -1,2 +1,2 @@
 # Chi2-Selectkbest
-[Link to application](https://tarantuviez-3.herokuapp.com/)
+[Link to application](https://tarantuviez-1.herokuapp.com/)
