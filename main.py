@@ -186,6 +186,6 @@ And on Twitter, [svpino](https://twitter.com/svpino) can guide you better than a
 st.write("""
 ## App repository
 
-[Github](https://github.com/ftarantuviez/chi2_selectkbest)
+[Github](https://github.com/ftarantuviez/Chi2-Selectkbest)
 """)
 # / This app repository
