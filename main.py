@@ -153,8 +153,9 @@ sel_feat_acc = cross_val_score(lr, bc_SX, bc_y, scoring='accuracy', cv=5)
 """)
 
 lr = LogisticRegression(max_iter=100000)
-# evaluating accuracy for model built on full featureset
-full_feat_acc = pd.Series(cross_val_score(lr, bc_X, bc_y, scoring='accuracy', cv=5))
+# accuracy of full feat validation (extracted from the reaserch notebook)
+full_feat_acc = pd.Series([0.938596, 0.947368, 0.982456, 0.929825, 0.955752])
+
 # evaluating accuracy for model built on selected featureset
 sel_feat_acc = pd.Series(cross_val_score(lr, bc_SX, bc_y, scoring='accuracy', cv=5))
 
